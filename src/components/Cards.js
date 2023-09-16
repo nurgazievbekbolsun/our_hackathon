@@ -1,16 +1,16 @@
 import React, { useRef, useState } from 'react'
 import { AiOutlineArrowRight, AiOutlineArrowLeft } from 'react-icons'
-import Back from "../images/back.png"
+import Back0 from "../images/back.png"
 import Back1 from "../images/1.png"
-import Back2 from "../images/2.png"
-import Back3 from "../images/3.png"
-import Back4 from "../images/4.png"
-import Back5 from "../images/5.png"
-import Back6 from "../images/6.png"
-import Back7 from "../images/7.png"
-import Back8 from "../images/8.png"
-import Back9 from "../images/9.png"
-import Back10 from "../images/10.png"
+import Back2 from "../images/2.jpg"
+import Back3 from "../images/3.jpg"
+import Back4 from "../images/4.jpg"
+import Back5 from "../images/5.jpg"
+import Back6 from "../images/6.jpg"
+import Back7 from "../images/7.jpg"
+import Back8 from "../images/8.jpg"
+import Back9 from "../images/9.jpg"
+// import Back10 from "../images/10.jpg"
 
 export const Cards = () => {
     const slideRef = useRef(null)
@@ -30,40 +30,88 @@ export const Cards = () => {
     const data = [
         {
             id: 1,
-            imgUrl: Back,
+            imgUrl: Back0,
             desc: "Some beautiful roads cannot be discovered without getting loss.",
             name: "EXPLORE NATURE",
         },
         {
-            id: 1,
-            imgUrl: "https://i.postimg.cc/PrMGqZwx/pexels-m-venter-1659437.jpg",
+            id: 2,
+            imgUrl: Back1,
             desc: "Some beautiful roads cannot be discovered without getting loss.",
             name: "EXPLORE NATURE",
         },
         {
-            id: 1,
-            imgUrl: "https://i.postimg.cc/PrMGqZwx/pexels-m-venter-1659437.jpg",
+            id: 3,
+            imgUrl: Back2,
             desc: "Some beautiful roads cannot be discovered without getting loss.",
             name: "EXPLORE NATURE",
         },
         {
-            id: 1,
-            imgUrl: "https://i.postimg.cc/PrMGqZwx/pexels-m-venter-1659437.jpg",
+            id: 4,
+            imgUrl: Back3,
             desc: "Some beautiful roads cannot be discovered without getting loss.",
             name: "EXPLORE NATURE",
         },
         {
-            id: 1,
-            imgUrl: "https://i.postimg.cc/PrMGqZwx/pexels-m-venter-1659437.jpg",
+            id: 5,
+            imgUrl: Back4,
             desc: "Some beautiful roads cannot be discovered without getting loss.",
             name: "EXPLORE NATURE",
         },
         {
-            id: 1,
-            imgUrl: "https://i.postimg.cc/PrMGqZwx/pexels-m-venter-1659437.jpg",
+            id: 6,
+            imgUrl: Back5,
             desc: "Some beautiful roads cannot be discovered without getting loss.",
             name: "EXPLORE NATURE",
-        }
+        },
+        {
+            id: 7,
+            imgUrl: Back6,
+            desc: "Some beautiful roads cannot be discovered without getting loss.",
+            name: "EXPLORE NATURE",
+        },
+        {
+            id: 8,
+            imgUrl: Back6,
+            desc: "Some beautiful roads cannot be discovered without getting loss.",
+            name: "EXPLORE NATURE",
+        },
+        {
+            id: 9,
+            imgUrl: Back6,
+            desc: "Some beautiful roads cannot be discovered without getting loss.",
+            name: "EXPLORE NATURE",
+        },
+        {
+            id: 10,
+            imgUrl: Back6,
+            desc: "Some beautiful roads cannot be discovered without getting loss.",
+            name: "EXPLORE NATURE",
+        },
+        {
+            id: 11,
+            imgUrl: Back6,
+            desc: "Some beautiful roads cannot be discovered without getting loss.",
+            name: "EXPLORE NATURE",
+        },
+        {
+            id: 12,
+            imgUrl: Back6,
+            desc: "Some beautiful roads cannot be discovered without getting loss.",
+            name: "EXPLORE NATURE",
+        },
+        {
+            id: 13,
+            imgUrl: Back6,
+            desc: "Some beautiful roads cannot be discovered without getting loss.",
+            name: "EXPLORE NATURE",
+        },
+        {
+            id: 14,
+            imgUrl: Back6,
+            desc: "Some beautiful roads cannot be discovered without getting loss.",
+            name: "EXPLORE NATURE",
+        },
     ]
     return (
         <div className="container">
@@ -85,10 +133,10 @@ export const Cards = () => {
             </div>
             <div className="buttons">
                 <button id="prev" onClick={handleClickPrev}>
-                    <p>Left</p>
+                    <p>-</p>
                 </button>
                 <button id="next" onClick={handleClickNext}>
-                    <p>Right</p>
+                    <p>+</p>
                 </button>
             </div>
         </div>
