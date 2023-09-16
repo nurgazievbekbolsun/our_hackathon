@@ -1,7 +1,16 @@
 import React, { useRef, useState } from 'react'
 import { AiOutlineArrowRight, AiOutlineArrowLeft } from 'react-icons'
 import Back from "../images/back.png"
-
+import Back1 from "../images/1.png"
+import Back2 from "../images/2.png"
+import Back3 from "../images/3.png"
+import Back4 from "../images/4.png"
+import Back5 from "../images/5.png"
+import Back6 from "../images/6.png"
+import Back7 from "../images/7.png"
+import Back8 from "../images/8.png"
+import Back9 from "../images/9.png"
+import Back10 from "../images/10.png"
 
 export const Cards = () => {
     const slideRef = useRef(null)
